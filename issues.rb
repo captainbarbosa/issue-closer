@@ -1,6 +1,6 @@
 class Issue
-  def list
-    uri = URI("https://api.github.com/repos/captainbarbosa/captainbarbosa.github.io/issues")
+  def create_list
+    uri = URI("https://api.github.com/repos/captainbarbosa/issue_closer/issues")
 
     username = ENV['GITHUB_USER']
     password = ENV['GITHUB_PASSWORD']
@@ -18,8 +18,5 @@ class Issue
 
     # Request response becomes a Ruby object
     return JSON.parse(response.body)
-
-    # Format response to list issues
-
   end
 end
