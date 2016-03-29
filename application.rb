@@ -5,7 +5,7 @@ require './issues'
 require './view'
 require './close_issue'
 
-issues = Issue.new
+issues = List.new
 
 issue_list = issues.create_list
 

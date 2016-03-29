@@ -1,4 +1,4 @@
-class Issue
+class List
   def create_list
     uri = URI("https://api.github.com/repos/captainbarbosa/issue_closer/issues")
 
