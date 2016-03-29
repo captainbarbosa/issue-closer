@@ -2,7 +2,7 @@ class FormattedIssue
   attr_accessor :issues
 
   def format_issues(issues)
-    puts "-----------------------------------------------------------------"
+    puts "--------------------------------------------------------------------"
     puts "ISSUES FOR THIS REPOSITORY:"
     puts
     issues.each do |issue|
@@ -11,6 +11,6 @@ class FormattedIssue
       puts "Description: #{issue["body"]}"
       puts
     end
-    puts "-----------------------------------------------------------------"
+    puts "--------------------------------------------------------------------"
   end
 end
