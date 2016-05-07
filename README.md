@@ -1,5 +1,7 @@
-Close issues on this repo from your command line!
+Allows issues on this specific repository to be closed via the command line.     
+Created as an assignment while at The Iron Yard.
 
+### Try it out
 Set up your GitHub username and password as local environment variables, then run **application.rb**.
 
 Example:
